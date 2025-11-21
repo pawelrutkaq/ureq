@@ -525,7 +525,7 @@
 // code will have a mix of inlined and not inlined. Code should be
 // uniform, thus this lint is misguided.
 #![allow(clippy::uninlined_format_args)]
-#![allow(mismatched_lifetime_syntaxes)]
+// #![allow(mismatched_lifetime_syntaxes)]
 
 #[macro_use]
 extern crate log;
